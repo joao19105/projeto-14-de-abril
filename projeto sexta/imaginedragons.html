@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Dragons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyimaginedragons">
+    <header class="headerdragons">
+      <p class="titulo">IMAGINE DRAGONS</p>
+    <img class="sitefotoimaginedragons" src="./img/IMAGINEdragons2.jpg" alt="">
+    <div>
+    <p class="titulo">IMAGINE DRAGONS</p>
+    </div>
+    </header>
+    <main class="maindragons">
+    <p class="textoimaginedragons">Imagine Dragons é uma banda de pop rock formada em Las Vegas nos Estados Unidos, consistindo do vocalista Dan Reynolds,
+        <br> do guitarrista Wayne Sermon, do baixista Ben McKee e do baterista Daniel Platzman.
+        <br> A banda Imagine Dragons está na estrada desde 2008 tocando um indie rock. Tudo começou quando Dan Reynolds conheceu o ex-integrante Andrew Tolman em Las Vegas, nos Estados Unidos.
+        <br> Após se conhecerem na universidade, os músicos decidiram, no mesmo ano, lançar um EP que levava o nome do grupo. Hell and Silence EP, chegou às lojas em 2010, ambos foram gravados na Battle Born Studios.
+        <br> Em 2011, lançaram o EP It's Time, e logo depois assinaram um contrato de gravação com a Interscope Records.
+        <br> O nome da banda é um anagrama, segundo explica o guitarrista Wayne Sermon: “Nós tínhamos essa frase, mas não queríamos chamar a banda assim, então concordamos em mudar as letras de lugar e surgiu Imagine Dragons.
+        <br> O primeiro disco de estúdio da banda, nomeado Night Visions, chegou em setembro de 2012. O álbum alcançou a segunda posição na Billboard 200, com vendas na primeira semana de mais de 83.000 de cópias.
+        <br> Na época, a Billboard listou a banda como uma das "Novas estrelas mais brilhantes de 2012".
+        <br> Atualmente, a banda é composta por Dan Reynolds, Ben McKee, Wayne "Wing" Sermon e Dan Platzman.
+    </p>
+     <p class="MúsicaFavorita">Música Favorita
+        <br>"Radioactive"
+     </p>
+        <div class="musica">
+            <button onclick="document.getElementById('player').play()">Play</button>
+            <button onclick="document.getElementById('player').pause()">Pause</button>
+            <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+            <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
+         </div>
+      
+          <audio class="botoes" id="player" autoplay="autoplay" controls="controls">
+            <source src="./mp3/Imagine Dragons - Radioactive_ktvTqknDobU.mp3" type="audio/mp3" />
+          </audio>
+
+          <div class="musica">
+            <button onclick="document.getElementById('player1').play()">Play</button>
+            <button onclick="document.getElementById('player1').pause()">Pause</button>
+            <button onclick="document.getElementById('player1').volume+=0.1">Aumentar volume</button>
+            <button onclick="document.getElementById('player1').volume-=0.1">Diminuir volume</button>
+         </div>
+
+          <audio class="botoes" id="player1" autoplay="autoplay" controls="controls">
+            <source src="./videos/Imagine Dragons - Demons (Official Music Video).mp4" type="audio/mp3" />
+          </audio>
+          <div class="musica">
+            <button onclick="document.getElementById('player2').play()">Play</button>
+            <button onclick="document.getElementById('player2').pause()">Pause</button>
+            <button onclick="document.getElementById('player2').volume+=0.1">Aumentar volume</button>
+            <button onclick="document.getElementById('player2').volume-=0.1">Diminuir volume</button>
+         </div>
+
+
+          <audio class="botoes" id="player2" autoplay="autoplay" controls="controls">
+            <source src="./videos/Imagine Dragons - Thunder.mp4" type="audio/mp3" />
+          </audio>
+
+          <div class="musica">
+            <button onclick="document.getElementById('player3').play()">Play</button>
+            <button onclick="document.getElementById('player3').pause()">Pause</button>
+            <button onclick="document.getElementById('player3').volume+=0.1">Aumentar volume</button>
+            <button onclick="document.getElementById('player3').volume-=0.1">Diminuir volume</button>
+         </div>
+         
+          <audio class="botoes" id="player3" autoplay="autoplay" controls="controls">
+            <source src="./videos/Imagine Dragons - Believer (Official Music Video).mp4" type="audio/mp3" />
+          </audio>
+  
+           <div>
+            <p class="ClipesFavoritos">Clipes Favoritos</p>
+            <iframe width="680" height="360" src="./videos/Imagine Dragons - Demons (Official Music Video).mp4" title="RY X - Thunder [Tradução/Legendado]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="680" height="360" src="./videos/Imagine Dragons - Believer (Official Music Video).mp4" title="Imagine Dragons - Demons (Tradução)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="680" height="360" src="./videos/Imagine Dragons - Thunder.mp4" title="Imagine Dragons - Bones (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="680" height="360" src="./videos/Imagine Dragons - Radioactive.mp4" title="Imagine Dragons - Radioactive (Tradução/Legendado)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
